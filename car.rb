@@ -14,7 +14,7 @@ class Car
 
   # How far we can ride
   def range
-    0
+    MILES_PEG_GALLON * @fuel
   end
 
 end
